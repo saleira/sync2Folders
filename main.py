@@ -102,7 +102,7 @@ def main():
   args = parser.parse_args()
 
   # Configure logging to write to both the specified log file and the console
-  logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s]  %(message)s", handlers=[
+  logging.basicConfig(level=logging.INFO, format="%(asctime)s %(message)s", handlers=[
         logging.FileHandler(args.log_file),
         logging.StreamHandler()
     ])
