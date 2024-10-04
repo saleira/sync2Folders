@@ -50,7 +50,7 @@ This command will synchronize the contents of `/path/to/source` with `/path/to/r
 
 ### Stopping the Program
 
-To stop the program gracefully, type `stop` in the command line where the program is running.
+To stop the program, type `stop` in the command line where the program is running.
 
 ## Logging
 
