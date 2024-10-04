@@ -66,10 +66,3 @@ The program logs the following events:
 3. Files or directories in the replica that do not exist in the source are deleted.
 4. The program runs this synchronization process at a specified interval.
 5. A separate thread listens for user input, allowing the user to stop the synchronization by typing "stop" into the console.
-
-## Limitations
-
-- This program assumes that the source directory is always available and accessible.
-- Only basic MD5 hashing is used for file comparison; other hash functions can be implemented for greater security.
-- If a file is being written to during synchronization, it might not be copied completely.
-
